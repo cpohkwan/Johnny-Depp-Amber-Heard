@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    background: white;
+    font-family: "Playfair Display", serif; /*serif font*/
+    font-size: 1.1rem;
+    color: #4a4a4a;
+}
+
+.content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+  }
+
+.deck {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .byline {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    font-size: 1.1em;
+    color: #423c3c;
+  }
+
+  a {
+    color: rgb(17, 42, 185);
+  }
+
+  a:hover {
+    color: #903;
+  }
+
+.section {
+    max-width: 800px;
+    margin: auto auto;
+}
+
+img {
+    max-width: 100%
+}
+
+.full-size-image {
+    padding: 15em 0;
+    background-size: cover;
+}
+
+.plot-holder {
+    margin-bottom: 1em;
+}
+
+.plot-holder .caption {
+    color: #333;
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.plot-holder .subtitle {
+    font-weight: bold;
+}
+
+  .spacing-chart {
+    margin: 2rem 0;
+  }
+
+  .container.title {
+    overflow: hidden;
+    height: 500 px;
+    height: 70vh;
+    /* 70vh - 70% of the window */
+  }
+
+  .title video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
