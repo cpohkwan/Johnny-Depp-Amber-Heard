@@ -34,7 +34,8 @@ html, body {
     margin-bottom: 1rem;
     line-height: 1.6rem;
     font-size: 1.1em;
-    color: #423c3c;
+    color: #3f3d3d;
+    text-align: justify;
   }
 
   a {
@@ -47,7 +48,7 @@ html, body {
 
 .section {
     max-width: 800px;
-    margin: auto auto;
+    margin: 0 auto;
 }
 
 img {
@@ -74,7 +75,7 @@ img {
 }
 
   .spacing-chart {
-    margin: 2rem 0;
+    margin: 2.5rem 0;
   }
 
   .container.title {
